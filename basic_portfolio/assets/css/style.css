@@ -291,32 +291,34 @@ p {
     }
     
     .headerwrapper {
-         width: 95%;
+         width: 100%;
 
     }   
     
 
      #HeaderLinks {
          display: block;
-         float: left;
+         text-align: center;
          padding: 20px;
+         float: none;
          
          
      }
 
-     #HeaderName {
+     #NameHeader {
          display: block;
-         padding-right: 50px;
-         float: left;
+         float: none;
+         text-align: center;
+         
      } 
      .container {
          width: 90%;
-         float: left;
+         float: none;
      }
  
      #ConnectWithMe {
          width: 90%;
-         float: left;
+         float: none;
          margin-bottom: 20px;
      }
 
@@ -339,7 +341,12 @@ p {
     label, textarea {
         width: 260px;
     }
-
+    
+    #header {
+        margin-bottom: 10px;
+        clear: both;
+        float: none;
+    }
     
     
 
