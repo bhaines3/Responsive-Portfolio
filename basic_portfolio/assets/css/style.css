@@ -191,7 +191,7 @@ label {
 
 .portfolio_item h3 {
     position: absolute;
-    top: 120px;
+    bottom: 10px;
     width: 235px;
     padding: 15px;
 }
@@ -328,11 +328,7 @@ p {
          padding: 5px:
      }
 
-     .portfolio_item{
-        float: left;
-        margin-left: 50px;
-           
-    }
+     
 
     label, input {
         width: 260px;
@@ -348,6 +344,17 @@ p {
         float: none;
     }
     
+    .portfolio_item h3 {
+        position: absolute;
+        bottom: 10px;
+        width: 235px;
+        padding: 15px;
+    }
+
+    .portfolio_item.float_left, 
+    .portfolio_item.float_right {
+        float: none;
+    }
     
 
 }
